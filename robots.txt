@@ -1,3 +1,11 @@
 User-agent: *
 Allow: /
+
+# Block sensitive pages
+Disallow: /wp-admin/
+Disallow: /cart
+Disallow: /checkout
+Disallow: /my-account
+
+# Sitemap
 Sitemap: https://tanjavoorathefe.in/sitemap.xml
