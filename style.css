@@ -1004,6 +1004,10 @@ a {
   left: 0;
   z-index: 0;
 }
+.section-title span {
+  display: block;
+  margin-top: -0.3rem; /* tighten the gap */
+}
 
 /*--------------------------------------------------------------
 /** 7.8 Video Section
